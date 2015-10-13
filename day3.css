@@ -1,0 +1,44 @@
+html{
+	background-color: black;
+}
+section{
+	height: 400px;
+	background: rgba(147,206,222,1);
+	background: -moz-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+	background: -webkit-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	background: -o-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	background: -ms-linear-gradient(top, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	background: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=0 );
+}
+
+footer{
+	height: 200px;
+	background-image: url("http://i.imgur.com/xkglldc.png");
+	background-color: green;
+}
+
+div{
+	position: absolute;
+	margin: 315px 0 0 0;
+	
+	z-index: 1;
+}
+
+.tree{
+	position: absolute;
+	height:  300px;
+	width: 200px;
+	
+	margin: 150px 0 0 400px;
+	
+	z-index: 5;
+}
+
+.instr{
+	position: absolute;
+	margin: 375px 0 0 600px;
+	
+	z-index: 0;
+}
