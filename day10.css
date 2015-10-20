@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;	
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	background-color: rgb(255,128,0);	
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+.ans{
+	position: fixed;
+	bottom: 200px;
+	width: 100%;
+}
+input{
+	height: 50px;
+	width: 375px;
+	background-color: rgb(255,255,255,0.5);
+	font-size: 2em;
+	border: 3px solid black;
+}
+#throw{	
+	height: 75px;
+	width: 100%;
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 0;
+	padding-top: 20px;
+	border-top: 3px solid black;
+	font-size: 3em;
+}
+
+#nom, #check{
+	margin-top: 20px;
+	font-size: 3em;
+	text-align: center;
+}
