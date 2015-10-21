@@ -1,7 +1,7 @@
 $(document).ready(function () {
 		$("#throw").click(function(){
 	var userChoice = document.getElementsByName("firstname")[0].value;
-
+//404?
 		var computerChoice = Math.random();
 		if (computerChoice < 0.34) {
 			computerChoice = "rock";
