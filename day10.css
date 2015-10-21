@@ -23,7 +23,7 @@ p{
 }
 input{
 	height: 50px;
-	width: 375px;
+	width: 315px;
 	background-color: rgb(255,255,255,0.5);
 	font-size: 2em;
 	border: 3px solid black;
@@ -41,6 +41,16 @@ input{
 
 #nom, #check{
 	margin-top: 20px;
-	font-size: 3em;
+	font-size: 1.5em;
 	text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+	#nom, #check{
+		font-size: 3em;
+	}
+	
+	input{
+		width: 375px;	
+	}
 }
