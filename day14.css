@@ -1,0 +1,30 @@
+html{
+	background-color: #333333;
+}
+
+#img1{
+	width: 150px;
+	height: 150px;
+	background-color: #FFCC00;
+	position: fixed;
+	left: 500px;
+	top: 250px;
+}
+
+#img2{
+	width: 400px;
+	height: 400px;
+	background-color: #FF00CC;
+	position: fixed;
+	left: 495px;
+	top: 150px;
+}
+
+#img4{
+	width: 700px;
+	height: 700px;
+	background-color: #CCFF00;
+	position: fixed;
+	left: 200px;
+	top: 5px;
+}
