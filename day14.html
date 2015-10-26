@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="Day14.css"/>
+	<script>
+				var degrees = 0;
+				
+				function rotateAnimation(el,speed){
+				var elem = document.getElementById(el);
+				if(navigator.userAgent.match("Chrome")){
+					elem.style.WebkitTransform = "rotate("+degrees+"deg)";
+				} else if(navigator.userAgent.match("Firefox")){
+					elem.style.MozTransform = "rotate("+degrees+"deg)";
+				} else if(navigator.userAgent.match("MSIE")){
+					elem.style.msTransform = "rotate("+degrees+"deg)";
+				} else if(navigator.userAgent.match("Opera")){
+					elem.style.OTransform = "rotate("+degrees+"deg)";
+				} else {
+					elem.style.transform = "rotate("+degrees+"deg)";
+				}
+				looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+				degrees++;
+				if(degrees > 359){
+					degrees = 1;
+				}			}
+	</script>
+	</head>
+	
+	<body>	
+		<div id="img4"></div>
+		<div id="img2"></div>
+		<div id="img1"></div>
+		<script>
+			rotateAnimation("img1",50);
+			rotateAnimation("img2",100);
+			rotateAnimation("img4",200);			
+		</script>
+		<h2 id="status"></h2>
+	</body>  
+</html>
