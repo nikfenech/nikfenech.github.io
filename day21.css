@@ -48,3 +48,7 @@ h1{
 p{
 	padding: 5px 0 0 0;
 }
+
+i{
+	cursor: hand; 	
+}
