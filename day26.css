@@ -1,0 +1,92 @@
+body{
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 1.5em;
+	background-color: #222222;
+}
+
+.block {
+  height: 300px;
+  text-align: center;
+  margin: 20px;
+}
+
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+
+  /* For visualization 
+  background: #808080; width: 5px;
+  */
+}
+
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+#secondhand{
+	width: 100px;
+	height: 100px;
+
+	background-color: #64B5F6;
+    border-radius: 100%;
+    
+    position: fixed;
+    left: 600px;
+    top: 200px;
+
+   -moz-box-shadow:    0 0 50px #000000;
+   -webkit-box-shadow: 0 0 50px #000000;
+   box-shadow:         0 0 50px #000000;    
+}
+
+#minutehand{
+	width: 200px;
+	height: 200px;
+
+	background-color: #42A5F5;
+    border-radius: 100%;
+    
+    position: fixed;
+    left: 550px;
+    top: 150px; 
+
+   -moz-box-shadow:    0 0 50px #000000;
+   -webkit-box-shadow: 0 0 50px #000000;
+   box-shadow:         0 0 50px #000000; 	
+}
+
+#hourhand{
+	width: 300px;
+	height: 300px;
+     
+	background-color: #2196F3;
+    border-radius: 100%;
+    
+    position: fixed;
+    left: 500px;
+    top: 100px;
+
+   -moz-box-shadow:    0 0 50px #000000;
+   -webkit-box-shadow: 0 0 50px #000000;
+   box-shadow:         0 0 50px #000000; 	
+}
+
+.hand{
+	width: 10px;
+	height: 10px;
+	
+	border-radius: 100%;
+	
+	background-color: white;
+    
+	-moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000; 	
+}
