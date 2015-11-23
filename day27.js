@@ -15,8 +15,5 @@ function makeThing(){
 	$('.thing').last().css('background',rand);
 }
 
-$("p").hover(function(){
-	
-});
 
 setInterval(makeThing,.0001);
