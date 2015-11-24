@@ -1,4 +1,4 @@
-var eye=["1.png","2.gif","3.png","4.png","5.png"];
+var eye=["http://imgur.com/lT0YmUf","http://imgur.com/kRguMFQ","http://imgur.com/tLhPnvd","http://imgur.com/XAakAYy","http://imgur.com/Sjr9pCD"];
 var nose=["1.png","2.png","3.png","4.png","5.png"];
 var mouth=["1.png","2.png","3.png","4.png"];
 
@@ -9,7 +9,7 @@ var thMouth=0;
 
 function nextEye() {
     if (thEye < eye.length) {
-        document.getElementById("eyeSlot").src= "img/eye/" + eye[thEye];
+        document.getElementById("eyeSlot").src= eye[thEye];
         thEye = thEye + 1;
     } else if (thEye == eye.length){
 		thEye = 0;
