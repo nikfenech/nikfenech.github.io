@@ -1,6 +1,6 @@
-var eye=["http://imgur.com/lT0YmUf","http://imgur.com/kRguMFQ","http://imgur.com/tLhPnvd","http://imgur.com/XAakAYy","http://imgur.com/Sjr9pCD"];
-var nose=["1.png","2.png","3.png","4.png","5.png"];
-var mouth=["1.png","2.png","3.png","4.png"];
+var eye=["http://i.imgur.com/Sjr9pCD.png","http://i.imgur.com/XAakAYy.png","http://i.imgur.com/tLhPnvd.gifv","http://i.imgur.com/kRguMFQ.png", "http://i.imgur.com/lT0YmUf.png"];
+var nose=["http://i.imgur.com/SKX8DiK.png","http://i.imgur.com/DDXRQhR.png","http://i.imgur.com/5qw7JJH.png","http://i.imgur.com/PUvV9EB.png","http://i.imgur.com/pMiFXmT.png"];
+var mouth=["http://i.imgur.com/eO4jglf.png","http://i.imgur.com/9Qwo6fA.png","http://i.imgur.com/Oq5fJDJ.png","http://i.imgur.com/7L1x2it.png"];
 
 var thEye=0;
 var thNose=0;
