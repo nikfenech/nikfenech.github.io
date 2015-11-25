@@ -1,6 +1,6 @@
-var eye=["http://i.imgur.com/Sjr9pCD.png","http://i.imgur.com/XAakAYy.png","http://i.imgur.com/tLhPnvd.gifv","http://i.imgur.com/kRguMFQ.png", "http://i.imgur.com/lT0YmUf.png"];
-var nose=["http://i.imgur.com/SKX8DiK.png","http://i.imgur.com/DDXRQhR.png","http://i.imgur.com/5qw7JJH.png","http://i.imgur.com/PUvV9EB.png","http://i.imgur.com/pMiFXmT.png"];
-var mouth=["http://i.imgur.com/eO4jglf.png","http://i.imgur.com/9Qwo6fA.png","http://i.imgur.com/Oq5fJDJ.png","http://i.imgur.com/7L1x2it.png"];
+var eye=["http://imgur.com/lT0YmUf","http://imgur.com/kRguMFQ","http://imgur.com/tLhPnvd","http://imgur.com/XAakAYy","http://imgur.com/Sjr9pCD"];
+var nose=["http://i.imgur.com/pMiFXmT.png","http://i.imgur.com/DDXRQhR.png","http://i.imgur.com/5qw7JJH.png","http://i.imgur.com/PUvV9EB.png","http://i.imgur.com/SKX8DiK.png"];
+var mouth=["http://i.imgur.com/iO6sc30.png","http://i.imgur.com/9Qwo6fA.png","http://i.imgur.com/Oq5fJDJ.png","http://i.imgur.com/7L1x2it.png"];
 
 var thEye=0;
 var thNose=0;
@@ -18,7 +18,7 @@ function nextEye() {
 
 function nextNose() {
     if (thNose < nose.length) {
-        document.getElementById("noseSlot").src= "img/nose/" + nose[thNose];
+        document.getElementById("noseSlot").src= nose[thNose];
         thNose = thNose + 1;
     } else if (thNose == nose.length){
 		thNose = 0;
@@ -27,7 +27,7 @@ function nextNose() {
 
 function nextMouth() {
     if (thMouth < mouth.length) {
-        document.getElementById("mouthSlot").src= "img/mouth/" + mouth[thMouth];
+        document.getElementById("mouthSlot").src= mouth[thMouth];
         thMouth = thMouth + 1;
     } else if (thMouth == mouth.length){
 		thMouth = 0;
