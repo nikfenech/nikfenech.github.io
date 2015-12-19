@@ -1,16 +1,27 @@
 *{
-	font-family: Montserrat, sans-serif;	
+	font-family: Montserrat, sans-serif;
+	color: #333333;
 }
 
-html{
-	background-color: #3D5AFE;
+html, body{
+	width: 100%;
 }
-
-
 
 .container{
 	padding: 50px;
 	color: white;
+	max-width: 100%;
+}
+
+.row{
+	width: 100%;
+	margin: 0 auto;
+    max-width: 960px;	
+	padding: 150px 0;
+}
+
+.hopefully{
+	width: 100%;
 }
 
 .pre{
@@ -18,7 +29,7 @@ html{
 }
 
 a{
-	color: #FF6D00;
+	color: #E91E63;
 	text-decoration: none;
 }
 
@@ -35,23 +46,32 @@ h5{
 	font-size: 2rem;
 }
 
-.row{
-	border-bottom: 2px solid white;	
-	border-radius: 1px;
-	width: 100%;
+.fa-envelope, .fa-phone{
+	margin-top: 10px;
+	color: #2196F3;
 }
 
-.fa{
-	margin-top: 10px;
+.fa-angle-double-down{
+	color: #FFFFFF;
 }
 
 #final{
 	border: none;
 	text-align: center;
+	padding-bottom: 200px;
 }
 
 .pic{
 	border-radius: 5px;
 	width: 450px;
-	margin: auto;
+	display: block;
+	margin: 0 auto;
 }
+
+button{
+	display: block;
+	margin: 0 auto;
+	background-color: #03A9F4;
+	padding-top: 5px;
+}
+
