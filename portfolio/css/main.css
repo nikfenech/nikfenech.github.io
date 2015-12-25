@@ -1,0 +1,187 @@
+/* Changes to Default Styling
+	Because this is what I want
+*/
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	color: #FFFFFF;
+	font-family: Hind, sans-serif;
+		
+	background: rgb(41,69,94); /* Old browsers */
+	background: -moz-linear-gradient(45deg, rgba(41,69,94,1) 0%, rgba(15,44,102,1) 98%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgba(41,69,94,1) 0%,rgba(15,44,102,1) 98%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(41,69,94,1) 0%,rgba(15,44,102,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29455e', endColorstr='#0f2c66',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h2{
+	font-size: 5em;
+}
+
+i{
+	color: #FFFFFF;
+	margin: 0 20px;
+}
+
+i:hover{
+	color: #5500CC;
+}
+/* Global Navigation */
+
+.globalNav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	
+	width: 100%;
+	height: 50px;
+	
+	background-color: #999999;
+	
+	box-shadow: 0 0 100px #666666;
+}
+
+/* Nice stuff to make things go where I want them to */
+
+.holdme{
+	max-width: 320px;
+	height: 100%;
+		
+	padding: 100px 0;	
+
+		
+	border: 1px solid red;
+	
+	margin: 0 auto;			
+}
+
+@media screen and (min-width: 830px) {
+	.holdme{
+		/* Displays 2 portfolio items side-by side per row at max width.
+		   Accounts 4px for borders. Without borders, it's 480px.
+		*/
+		max-width: 484px;
+			
+
+	}
+}
+
+/* Portfolio Article */
+
+.item{
+		width: 280px;
+		height: 500px;
+
+		margin: 20px auto;
+
+		border: 1px solid red;
+		
+		border-radius: 5px;
+		overflow: hidden;
+}
+	
+.img{
+			width: 280px;
+			height: 280px;
+			
+			background-color: #DDDDDD;
+}
+
+@media screen and (min-width: 830px) {
+	.item{
+		width: 200px;
+		height: 300px;
+		
+		float: left;
+		
+		margin: 20px;
+
+		border: 1px solid red;
+
+	}
+
+	.img{
+			width: 200px;
+			height: 200px;
+			
+	}
+}
+
+/* Page Specific: Index */
+
+.nameplate{
+	position: fixed;
+	top: 50px;
+	left: 50px;
+}
+
+/* Page Specific: Portfolio */
+
+.end{
+	width: 100%;
+	height: 100px;
+	
+	background-color: #666666;
+	
+	clear: both;
+}
+
+/* Page Specific: About */
+.pictureof{
+	border-radius: 5px;
+	
+	width: 200px;
+	height: 200px;
+	
+	float: left;
+}
+
+.about{
+	max-width: 100%;
+	margin: 0 auto;
+	
+	padding: 100px 0;
+}
+.skills{
+	/* Just to keep things from colliding*/
+	margin: 20px 0 0 0;
+}
+
+.skill{
+	padding: 5px 8px;
+	
+	float: left;
+	margin: 5px;
+	
+	border-radius: 5px;
+	
+	color: #FFFFFF;
+	
+	background-color: #222233;
+	
+	font-family: /*I'll decide later*/ Arial, sans-serif;
+}
+
+/* Frivolous Aesthetics */
+.name{
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	
+	font-family: arial, sans-serif;
+	color: #FFFFFF;
+	
+	opacity: 0.5;
+}
+
+.socialmedia{
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+
+}
