@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#bgim{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+#userpane{
+	position: fixed;
+	top: 18px;
+	right: 18px;
+	width: 250px;
+	height: 170px;
+	border-radius: 2%;
+	
+	background-color: #777777;
+	
+	border: 1px solid #333333;
+    box-shadow: 0 0 10px #333333;	
+	opacity: 0.9;
+	display: none;
+	
+}
+
+.nameplate{
+	height: 52px; 
+	padding: 10px 0 0 20px;
+	font-size: 1.5em;
+	
+	border-top-left-radius: 2%;
+	border-top-left-radius: 2%;
+		
+	background-color: #555555;
+	color: #FFFFFF;
+	border-bottom: 1px solid #333333;
+	margin-bottom: 10px;
+}
+
+.Uopt{
+	padding: 10px 0 0 20px;
+	width: 100%;
+}
+
+.imgtitle{
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	
+	color: white;
+	font-size: 1.5em;
+	opacity: 0.5;
+}
+
+#pic{
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	background: black;
+	
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
+.pic img{
+	opacity: 0.5;
+}
+
+.global{
+    position: fixed;
+	top: 20px;
+	left: 20px;
+	
+	color: #E3F2FD;	
+}
+
+.icontainer{
+    position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #E3F2FD;	
+}
+
+a:hover{
+	color: #FF3D00;
+	transition: color 1.5s ease;	
+}
+
+a .uopt:hover{
+	color: green;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #E3F2FD;		
+}
+
+i{
+	color: #E3F2FD;
+	opacity: 0.5;
+	margin: 0 20px 0 0;
+}
+
+i:hover{
+	color: #FF3D00;
+	transition: color 1.5s ease;	
+}
+
+
+h5{
+		font-size: .5em;
+		font-style: italic;
+}

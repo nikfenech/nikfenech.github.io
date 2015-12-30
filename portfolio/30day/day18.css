@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+/* Add class to body on specific image pages*/
+.imgpage{
+	overflow: hidden;
+}
+
+#bgim{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+	z-index: -1;
+}
+
+#userpane{
+	position: fixed;
+	top: 18px;
+	right: 18px;
+	width: 250px;
+	height: 170px;
+	border-radius: 2%;
+	
+	background-color: #777777;
+	
+	border: 1px solid #333333;
+    box-shadow: 0 0 10px #333333;	
+	opacity: 0.9;
+	display: none;
+	
+}
+
+.nameplate{
+	height: 52px; 
+	padding: 10px 0 0 20px;
+	font-size: 1.5em;
+	background-color: #555555;
+	color: #FFFFFF;
+	border-bottom: 1px solid #333333;
+	margin-bottom: 10px;
+}
+
+.Uopt{
+	padding: 10px 0 0 20px;
+	width: 100%;
+}
+
+.imgtitle{
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	
+	color: white;
+	font-size: 1.5em;
+	opacity: 0.5;
+}
+
+#pic{
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	background: black;
+	
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
+.pic img{
+	opacity: 0.5;
+}
+
+.global{
+    position: fixed;
+	top: 20px;
+	left: 20px;
+	
+	color: #E3F2FD;	
+}
+
+.icontainer{
+    position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #E3F2FD;	
+}
+
+a:hover{
+	color: #FF3D00;
+	transition: color 1.5s ease;	
+}
+
+a .uopt:hover{
+	color: green;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #E3F2FD;		
+}
+
+i{
+	color: #E3F2FD;
+	opacity: 0.5;
+	margin: 0 20px 0 0;
+}
+
+i:hover{
+	color: #FF3D00;
+	transition: color 1.5s ease;	
+}
+
+
+h5{
+		font-size: .5em;
+		font-style: italic;
+}
+
+.contain{
+	width: 320px;
+	margin: 0 auto 50px auto;
+    box-shadow: 0 0 10px #111111;	
+}
+
+.gallerythumb{
+	height: 160px;
+	width: 320px;
+	float: left;
+	display: block;
+	background-color: black;
+}
+
+.gallerythumb img{
+	width: 100%;
+	overflow: hidden;	
+}
+
+.top{
+	height: 200px;
+	background: url("https://static.pexels.com/photos/12813/pexels-photo-12813.jpeg") no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+	width: 100%;
+	padding: 20px 0 0 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px #111111;
+	overflow: hidden;	
+	
+}
+
+.top i{
+	color: #000000;
+}
+
+.top h1{
+	font-size: 3.5em;
+	color: #FFFFFF;
+}
+
+.top h2{
+	color: #FFFFFF;
+}
+
+.foot{
+	background-color: #444444;
+	height: 50px;
+	clear:both;
+	max-width: 960px;
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+@media screen and (min-width: 480px) {
+	.contain{
+		width: 480px;
+	}
+	
+	.gallerythumb{
+		width: 240px;
+	}
+}	
+
+@media screen and (min-width: 720px) {
+	.contain{
+		width: 720px;
+	}
+	
+	.gallerythumb{
+		width: 240px;
+	}
+}	
+
+@media screen and (min-width: 960px) {
+	.contain{
+		width: 960px;
+	}
+	
+	.gallerythumb{
+		width: 240px;
+	}	
+	
+	.top{
+		padding: 20px 0 0 100px;		
+	}
+}	
