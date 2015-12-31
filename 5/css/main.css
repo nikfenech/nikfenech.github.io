@@ -111,6 +111,21 @@ p{
 	width: 200px;
 }
 
+.holdme{
+	max-width: 320px;
+	height: 100%;
+		
+	padding: 20px 0;	
+}
+
+@media screen and (min-width: 830px) {
+	.holdme{
+		max-width: 60%;
+		margin: 0 auto;
+		padding: 100px 0 0 0;
+	}
+}
+
 
 /* HEADER, NAV
 --------------------------------------------------------*/
