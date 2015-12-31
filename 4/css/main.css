@@ -53,7 +53,7 @@ h2{
 @media screen and (min-width: 830px) {
 	h2{
 		font-size: 4em;
-		text-align: center;
+		/*text-align: center;*/
 	}
 }
 
@@ -61,7 +61,7 @@ h2{
 
 @media screen and (min-width: 830px) {
 	h3{
-		text-align: center;
+		/*text-align: center;*/
 		margin: 50px 0;
 		font-family: 'Montserrat', sans-serif;	
 	}
@@ -133,16 +133,20 @@ p{
 
 .leftblock{
 	position: fixed;
-	width: 50%;
+	width: 30%;
 	left: 0;
 	top: 100px;
+	
+	border: 1px solid red;
 }
 
 .portfolio{
 	position: fixed;
-	width: 50%;
+	width: 30%;
 	right: 0;
 	top: 100px;
+	
+	border: 1px solid red;	
 }
 
 
@@ -152,6 +156,7 @@ Page Specific: Index
 
 .nameplate{
 	/*padding: 50px 0 0 50px;*/
+	margin: 0 0 0 7.5%;
 }
 
 .links{
@@ -169,14 +174,14 @@ Page Specific: Index
 Page Specific: Portfolio
  -------------------- */
 
-.end{
+/*.end{
 	width: 100%;
 	margin: 0 0 100px 0;
 	padding: 60px 0 0 0;
 	text-align: center;
 	
 	clear: both;
-}
+}*/
 
 .projectname{
 	position: relative;
@@ -188,7 +193,6 @@ Page Specific: Portfolio
 /* Portfolio Article */
 
 .pagelink{
-
 	padding: 10px 0;
 	text-align: center;
 	margin: 20px 0;	
@@ -214,8 +218,6 @@ Page Specific: Portfolio
 		width: 280px;
 		height: 400px;
 
-		margin: 20px auto;
-
 		/*border: 1px solid red;*/
 		position: relative;
 		
@@ -240,12 +242,11 @@ Page Specific: Portfolio
 		
 		float: left;
 		
-		margin: 20px 7.5%;
+		margin: 20px 0 20px 10%;
 		
 		background-color: #111111;
 
-		/*border: 1px solid red;*/
-
+		border: 1px solid red;
 	}
 
 	.img{
