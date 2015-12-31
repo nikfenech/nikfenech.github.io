@@ -83,7 +83,7 @@ a:hover{
 
 i{
 	color: #FFFFFF;
-	margin: 0 0 0 40px;
+	margin: 40px 0 0 80px;
 }
 
 i:hover{
@@ -95,8 +95,22 @@ p{
 	margin: 0 0 20px 0;
 }
 
-/*
+/* GENERAL
 --------------------------------------------------------*/
+
+.pagelink{
+	text-align: center;
+	margin: 20px;
+	padding: 10px 0;
+	
+	border: 1px solid rgba(255, 255, 255, .5);
+	border-radius: 4px;
+	
+	background-color: rgba(255, 255, 255, .1);
+	
+	width: 200px;
+}
+
 
 /* HEADER, NAV
 --------------------------------------------------------*/
@@ -118,7 +132,7 @@ p{
 			
 			.socialmedia{
 				float: left;
-				margin: 45% 0 0 0;
+				margin: 25% 0 0 0;
 			}
 			
 	
@@ -140,7 +154,7 @@ p{
 			}
 			
 				/* Portfolio Article */
-				.pagelink{
+				.itemNameplate{
 					padding: 10px 0;
 					text-align: center;
 					margin: 20px 0;	
@@ -157,7 +171,7 @@ p{
 				}
 
 				@media screen and (min-width: 830px) {	
-					.pagelink{	
+					.itemNameplate{	
 
 					}
 				}
