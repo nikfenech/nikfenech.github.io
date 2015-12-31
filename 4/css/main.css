@@ -101,12 +101,7 @@ p{
 	font-family: 'Open Sans', sans-serif;
 }
 
-.leftblock{
-	position: fixed;
-	width: 35%;
-	left: 0;
-	top: 100px;
-}
+
 
 /*@media screen and (min-width: 830px) {
 	.leftblock{
@@ -135,6 +130,21 @@ p{
 		padding: 100px 0 0 0;
 	}
 }
+
+.leftblock{
+	position: fixed;
+	width: 50%;
+	left: 0;
+	top: 100px;
+}
+
+.portfolio{
+	position: fixed;
+	width: 50%;
+	right: 0;
+	top: 100px;
+}
+
 
 /* --------------------
 Page Specific: Index
@@ -310,10 +320,6 @@ Page Specific: About
 
 /* Frivolous Aesthetics */
 
-.portfolio{
-	float: right;
-	width: 60%;
-}
 
 .name{
 	text-align: center;
