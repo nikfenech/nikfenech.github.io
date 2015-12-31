@@ -102,8 +102,8 @@ p{
 }
 
 .leftblock{
-	width: 40%;
 	position: fixed;
+	width: 35%;
 	left: 0;
 	top: 100px;
 }
@@ -312,7 +312,7 @@ Page Specific: About
 
 .portfolio{
 	float: right;
-	width: 65%;
+	width: 60%;
 }
 
 .name{
