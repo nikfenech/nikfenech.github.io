@@ -52,6 +52,7 @@ h2{
 @media screen and (min-width: 830px) {
 	h2{
 		font-size: 4em;
+		margin: 0 0 20px 0;
 	}
 }
 
@@ -83,7 +84,7 @@ a:hover{
 
 i{
 	color: #FFFFFF;
-	margin: 40px 0 0 80px;
+	margin: 40px 40px 0 0;
 }
 
 i:hover{
