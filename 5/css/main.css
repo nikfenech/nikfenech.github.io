@@ -120,7 +120,7 @@ ul{
 	margin: 0 0 80px 0;
 }
 
-.holdme a{
+.holdme a,.holdme ul{
 	color: #111111;
 }
 
@@ -257,13 +257,19 @@ ul{
 				
 /* IMAGE FORMATTING
 --------------------------------------------------------*/	
+
+.holdme img{
+		margin: 0 auto;
+		border-radius: 4px;
+}
+
 .imgbox{
 	margin: 0 auto;
 	border: 1px solid red;
 }
 @media screen and (min-width: 830px) {	
  .two{
-	 width: 45%;
+	 width: 35%;
 	 float: left;
 	 margin: 20px 5%
  }
