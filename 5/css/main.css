@@ -109,7 +109,7 @@ ul{
 }
 
 
-.holdme p.holdme ul{
+.holdme p, .holdme ul{
 	padding: 0 20%;
 	color: #111111;
 }
