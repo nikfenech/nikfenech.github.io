@@ -4,9 +4,13 @@
 	padding: 0;	
 }
 
-html, body{
+html, body{	
+	position: relative;
+	
 	width: 100%;
-	height: 100%;
+	height: auto;
+	min-height: 100%;
+	
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -100,20 +104,26 @@ p{
 	margin: 0 0 20px 0;
 }
 
+ul{
+	margin: 0 0 0 50px;
+}
+
+
 .holdme p{
 	padding: 0 20%;
 	color: #111111;
 }
 
-.holdme h2, h3, h4{
+.holdme h2, .holdme h3, .holdme h4{
 	text-align: center;
 	color: #111111;
 	margin: 0 0 80px 0;
 }
 
-ul{
-	margin: 0 0 0 50px;
+.holdme a{
+	color: #111111;
 }
+
 
 /* GENERAL
 --------------------------------------------------------*/
@@ -145,8 +155,8 @@ ul{
 		padding: 100px 0 0 0;
 		
 		background-color: #FFFFFF;
-		border: 4px solid #111111;
 		
+		display: block;
 		overflow: auto;
 	}
 }
