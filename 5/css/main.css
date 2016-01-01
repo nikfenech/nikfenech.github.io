@@ -10,6 +10,10 @@ html, body{
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 }
+
+img{
+	max-width: 100%;
+}
 	
 	
 /*Graident/Image texture to diffuse background*/
@@ -96,6 +100,10 @@ p{
 	margin: 0 0 20px 0;
 }
 
+ul{
+	margin: 0 0 0 50px;
+}
+
 /* GENERAL
 --------------------------------------------------------*/
 
@@ -111,7 +119,7 @@ p{
 	
 	width: 200px;
 }
-/*
+
 .holdme{
 	max-width: 320px;
 	height: 100%;
@@ -126,7 +134,7 @@ p{
 		padding: 100px 0 0 0;
 	}
 }
-*/
+
 
 /* HEADER, NAV
 --------------------------------------------------------*/
