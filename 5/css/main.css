@@ -87,7 +87,7 @@ a{
 }
 
 a:hover{
-	color: #C6FF00;
+	color: #D50000;
 }
 
 i{
@@ -96,7 +96,7 @@ i{
 }
 
 i:hover{
-	color: #C6FF00;
+	color: #D50000;
 }
 
 p{
@@ -121,8 +121,16 @@ ul{
 }
 
 .holdme h2{
-	font-size: 3em;
+	font-size: 1.5em;
+	border-bottom: 2px solid #111111;
+	padding-bottom: 20px;
 }
+
+@media screen and (min-width: 830px) {
+	.holdme h2{
+		font-size: 3em;
+	}
+}	
 
 .holdme h3{
 	margin: 80px 0;
@@ -157,12 +165,12 @@ ul{
 
 	display: block;
 	overflow: auto;	
+	margin: 0 auto;
 }
 
 @media screen and (min-width: 830px) {
 	.holdme{
 		max-width: 80%;
-		margin: 0 auto;
 		padding: 100px 0 0 0;
 	}
 }
