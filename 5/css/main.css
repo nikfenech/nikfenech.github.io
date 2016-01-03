@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;	
 }
-
+	
 html, body{	
 	position: relative;
 	
@@ -14,6 +14,7 @@ html, body{
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 }
+
 
 img{
 	display: block;
@@ -57,7 +58,7 @@ h2{
 	font-size: 3em;
 }
 
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 750px) {
 	h2{
 		font-size: 4em;
 		margin: 0 0 20px 0;
@@ -65,7 +66,7 @@ h2{
 }
 
 /*USE: Page subheadings*/
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 750px) {
 	h3{
 		font-family: 'Montserrat', sans-serif;	
 	}
@@ -75,7 +76,7 @@ h4{
 	font-size: .75em;
 }
 
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 750px) {
 	h4{
 		font-size: 1em;
 	}	
@@ -126,7 +127,7 @@ ul{
 	padding-bottom: 20px;
 }
 
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 750px) {
 	.holdme h2{
 		font-size: 3em;
 	}
@@ -168,10 +169,18 @@ ul{
 	margin: 0 auto;
 }
 
+.socialmedia{
+	display: none;
+}
+
 @media screen and (min-width: 830px) {
 	.holdme{
 		max-width: 80%;
 		padding: 100px 0 0 0;
+	}
+	
+	.socialmedia{
+		display: block;
 	}
 }
 
@@ -184,6 +193,11 @@ ul{
 	float: left;
 }
 
+.nameplate{
+	text-align: center;
+	width: 100%;	
+}
+
 @media screen and (min-width: 830px) {
 		.left{
 			position: fixed;
@@ -194,6 +208,7 @@ ul{
 }		
 
 			.nameplate{
+				text-align: left;
 				width: 100%;
 				
 				margin: 7.5% 0 0 15%;
@@ -213,6 +228,7 @@ ul{
 .right{
 	width: 100%;
 	float: left;
+	margin: 100px 0 0 0;
 }
 
 			.portfolio{
@@ -254,7 +270,7 @@ ul{
 				}	
 				
 
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 750px) {
 	.right{
 		width: 50%;
 		float: right;
@@ -269,6 +285,8 @@ ul{
 		
 				.item{
 					width: 35%;
+					height: 300px;
+					
 					margin: 0 0 20px 40px;
 					float: right;
 
@@ -279,6 +297,32 @@ ul{
 					}
 				}	
 }
+
+/* ABOUT PAGE
+--------------------------------------------------------*/
+
+.skills{
+	/* Just to keep things from colliding*/
+	width: 50%;
+	clear: both;
+
+}
+
+.skill{
+	padding: 5px 8px;
+	
+	float: left;
+	margin: 5px;
+	
+	border-radius: 5px;
+	
+	color: #FFFFFF;
+	
+	background-color: #222233;
+	
+	font-family: /*I'll decide later*/ Arial, sans-serif;
+}
+
 
 /* IMAGE FORMATTING
 --------------------------------------------------------*/	
@@ -292,7 +336,7 @@ ul{
 .imgbox{
 	margin: 0 auto;
 }
-@media screen and (min-width: 830px) {	
+@media screen and (min-width: 750px) {	
  .two{
 	 width: 35%;
 	 float: left;
