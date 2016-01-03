@@ -204,7 +204,7 @@ ul{
 --------------------------------------------------------*/
 
 .right{
-	width: 60%;
+	width: 50%;
 	float: right;
 	margin: 75px 0 0 0;
 }
@@ -251,12 +251,12 @@ ul{
 						
 					float: right;
 						
-					margin: 0 0 20px 80px;
+					margin: 0 0 20px 40px;
 				}
 					
 				.img{
 					height: 85.5%;
-					margin: 0 0 0 -32px;
+					margin: 0 0 0 -62px;
 					z-index: -10;		
 				}
 
