@@ -169,18 +169,10 @@ ul{
 	margin: 0 auto;
 }
 
-.socialmedia{
-	display: none;
-}
-
 @media screen and (min-width: 830px) {
 	.holdme{
 		max-width: 80%;
 		padding: 100px 0 0 0;
-	}
-	
-	.socialmedia{
-		display: block;
 	}
 }
 
@@ -196,6 +188,10 @@ ul{
 .nameplate{
 	text-align: center;
 	width: 100%;	
+}
+
+.socialmedia{
+	display: none;
 }
 
 @media screen and (min-width: 830px) {
@@ -218,7 +214,8 @@ ul{
 			
 			.socialmedia{
 				float: left;
-				margin: 25% 0 0 0;
+				display: block;
+				margin: 40px 0 0 0;
 			}
 			
 	
