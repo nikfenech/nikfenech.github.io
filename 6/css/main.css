@@ -158,25 +158,6 @@ ul{
 	width: 200px;
 }
 
-.holdme{
-	height: 100%;
-	width: 95%;	
-	background-color: #FFFFFF;		
-	padding: 20px 0;	
-
-	display: block;
-	overflow: auto;	
-	margin: 0 auto;
-}
-
-@media screen and (min-width: 830px) {
-	.holdme{
-		max-width: 80%;
-		padding: 100px 0 0 0;
-	}
-}
-
-
 /* HEADER, NAV
 --------------------------------------------------------*/
 
@@ -295,6 +276,38 @@ ul{
 				}	
 }
 
+/* PORTFOLIO - INTERNAL
+--------------------------------------------------------*/
+
+.holdme{
+	height: 100%;
+	width: 95%;	
+	background-color: #FFFFFF;		
+	padding: 20px 0;	
+
+	display: block;
+	overflow: auto;	
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 830px) {
+	.holdme{
+		max-width: 80%;
+		padding: 100px 0 0 0;
+	}
+}
+
+
+				.back{
+					padding: 10px 0;
+					text-align: center;
+					margin: 0 auro;	
+					
+					border: 1px solid rgba(10, 10, 10, .5);
+					border-radius: 4px;
+
+				}
+
 /* ABOUT PAGE
 --------------------------------------------------------*/
 
@@ -327,21 +340,20 @@ ul{
 
 .holdme img{
 		margin: 40px auto;
-		width: 90%;
-		/*border-radius: 4px;*/
+		width: 80%;
 }
 
 .imgbox{
 	margin: 0 auto;
+	width: 100%;
 }
 @media screen and (min-width: 750px) {	
  .two{
 	 width: 35%;
 	 float: left;
-	 margin: 20px 5%
+	 margin: 20px 5%;
  }
 }
 
 .two img{
-	margin: 0 auto;
 }
