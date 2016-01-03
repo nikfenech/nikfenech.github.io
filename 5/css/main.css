@@ -54,7 +54,7 @@ html{
 /* USE: Page headings*/
 h2{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 2.5em;
+	font-size: 3em;
 }
 
 @media screen and (min-width: 830px) {
@@ -180,11 +180,18 @@ ul{
 --------------------------------------------------------*/
 
 .left{
-	position: fixed;
-	width: 50%;
-	left: 0;
-	top: 75px;
+	width: 100%;
+	float: left;
 }
+
+@media screen and (min-width: 830px) {
+		.left{
+			position: fixed;
+			width: 50%;
+			left: 0;
+			top: 75px;
+		}
+}		
 
 			.nameplate{
 				width: 100%;
@@ -204,17 +211,11 @@ ul{
 --------------------------------------------------------*/
 
 .right{
-	width: 50%;
-	float: right;
-	margin: 75px 0 0 0;
+	width: 100%;
+	float: left;
 }
 
 			.portfolio{
-				width:  100%;
-				
-				margin: 7.5% 15% 0 0;
-				
-				float: right;
 			}
 			
 				/* Portfolio Article */
@@ -234,43 +235,51 @@ ul{
 					left: 0;
 				}
 
-				@media screen and (min-width: 830px) {	
-					.itemNameplate{	
-
-					}
-				}
-				
 				.item{
-					width: 25%;
+					width: 65%;
 					height: 400px;
 
 					position: relative;
 					
 					border-radius: 5px;
 					overflow: hidden;
-						
-					float: right;
-						
-					margin: 0 0 20px 40px;
+
+					margin: 40px auto;
 				}
 					
 				.img{
-					height: 85.5%;
+					height: 89%;
 					margin: 0 0 0 -62px;
 					z-index: -10;		
-				}
-
-				@media screen and (min-width: 830px) {
-					.item{
-						width: 35%;
-						height: 300px;
-					}
-
-					.img{
-	
-					}
 				}	
 				
+
+@media screen and (min-width: 830px) {
+	.right{
+		width: 50%;
+		float: right;
+		margin: 75px 0 0 0;
+	}
+	
+		.portfolio{
+			width:  100%;		
+			margin: 7.5% 15% 0 0;
+			float: right;
+		}
+		
+				.item{
+					width: 35%;
+					margin: 0 0 20px 40px;
+					float: right;
+
+				}	
+
+					.img{
+						height: 85.5%;	
+					}
+				}	
+}
+
 /* IMAGE FORMATTING
 --------------------------------------------------------*/	
 
