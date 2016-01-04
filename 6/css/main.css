@@ -305,11 +305,9 @@ ul{
 --------------------------------------------------------*/
 
 .skills{
-	/* Just to keep things from colliding*/
-	max-width: 400px;
+	width: 400px;
 	margin: 0 auto;
-	display: block;
-
+	clear: both;
 }
 
 .skill{
