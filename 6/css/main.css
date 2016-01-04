@@ -322,7 +322,6 @@ ul{
 	
 	color: #FFFFFF;
 	
-	background-color: #222233;
 	
 	font-family: /*I'll decide later*/ Arial, sans-serif;
 }
@@ -344,6 +343,9 @@ li{
 	padding: 4px 0;
 	margin-bottom: 20px;
 	width: 200px;
+
+	background-color: #222233;	
+	color: #FFFFFF;
 }
 
 
