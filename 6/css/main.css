@@ -141,6 +141,12 @@ ul{
 	color: #111111;
 }
 
+.holdme img{
+	display: block;
+	margin: 40px auto;
+	width: 85%;
+}
+
 
 /* GENERAL
 --------------------------------------------------------*/
@@ -325,23 +331,7 @@ ul{
 /* IMAGE FORMATTING
 --------------------------------------------------------*/	
 
-.holdme img{
-		margin: 40px auto;
-		width: 90%;
-}
-
-.imgbox{
-	margin: 0 auto;
-	width: 100%;
-}
-@media screen and (min-width: 750px) {	
- .two{
-	 width: 35%;
-	 float: left;
-	 margin: 20px 5%
- }
-}
-
-.two img{
-	display: block;
+.row img{
+		width: 75%;
+		margin: 0 auto;
 }
