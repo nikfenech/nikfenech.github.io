@@ -335,6 +335,7 @@ ul {
     column-gap: 20px;
 }
 
+/*
 li{
 	list-style: none;
 	border: 1px solid #111111;
@@ -347,7 +348,7 @@ li{
 	background-color: #222233;	
 	color: #FFFFFF;
 }
-
+/*
 
 
 /* IMAGE FORMATTING
