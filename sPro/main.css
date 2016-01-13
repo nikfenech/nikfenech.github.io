@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	background-color: #111111;
+}
+@media screen and (min-width: 750px) {
+	html, body{	
+		overflow: hidden;
+	}
+}
+h4{
+	font-family: 'Poppins', sans-serif;
+	font-size: .75em;
+	color: #FFFFFF;
+}
+
+a{
+	text-decoration: none;
+	color: #448AFF;
+}
+
+
+@media screen and (min-width: 750px) {
+	h4{
+		font-size: 1em;
+	}
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+	font-size: .75em;
+	margin-bottom: 50px;
+	color: #FFFFFF;
+}
+
+b{
+	color: #f1c40f;
+}
+
+.grid{
+	width: 100%;
+	height: 100%;
+	float: left;
+	/*background-color: #114411;*/
+}
+
+.block{
+	float: left;
+	width: 50%;
+	height: 300px;
+}
+
+@media screen and (min-width: 750px) {
+	.block{
+		width: 33.3%;
+		height: 50%;
+	}
+}
+
+.contents{
+	max-width: 70%;
+	margin: 70px auto 0 auto;
+}
+
+
+.block.expanded {
+  z-index: 100;
+  font-size: 1.5em;
+  position: absolute;
+}
+
+.splash{
+  z-index: 101;
+  font-size: 1.5em;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #222222;
+  text-align: center;
+}
+
+.splash.retracted{
+	position: relative;
+	text-align: left;
+	float: left;
+}
+
+
+.splContent{
+	margin: 50px 0 0 0;
+	opacity: 1;
+}
+
+.block.hidden{
+	display: none;
+}
+
+.expContent{
+	margin: 50px 0 0 0;
+	opacity: 0;
+}
+
+.ytv{
+	border: none;
+	width: 500px;
+	height: 281px;
+	margin: 0 auto;
+	display: block;
+}
+
+.pdf{
+	width:80%; 
+	height:300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	margin: 50px;
+}
+
+.contact{
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	text-align: right;
+}
+
+.contact p{
+	margin: 10px 0 0 0;
+}
+
+
+#block1{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("bg_sketch.jpg"); 	
+}
+
+#block1.expanded{
+	background-size: cover;
+}
+
+#block2{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("mh_bg.png");
+	background-size: 150%;
+}
+
+#block2.expanded{
+	background-size: cover;
+}
+
+#block3{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("bg_sharpi.jpg"); 
+	background-size: 150%;		
+}
+
+#block3{
+	background-size: cover;
+}
+
+#block4{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("postbg.png");	
+	background-size: 120%;
+}
+
+#block4.expanded{
+	background-size: cover;
+}
+
+#block5{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("scribbg.png"); 	
+}
+
+#block5{
+	background-size: cover;
+}
+	
+#block6{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(""); 	
+}
