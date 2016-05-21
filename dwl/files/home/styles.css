@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:810px;
+  width:370px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -14,8 +14,8 @@
 }
 #u0 {
   position:absolute;
-  left:440px;
-  top:100px;
+  left:0px;
+  top:0px;
   width:370px;
   height:670px;
   overflow:hidden;
@@ -550,8 +550,8 @@
 }
 #u41 {
   position:absolute;
-  left:710px;
-  top:694px;
+  left:270px;
+  top:594px;
   width:80px;
   height:56px;
   color:#FFFFFF;
@@ -572,8 +572,8 @@
 }
 #u43 {
   position:absolute;
-  left:440px;
-  top:100px;
+  left:0px;
+  top:0px;
   width:370px;
   height:670px;
 }
@@ -594,8 +594,8 @@
 }
 #u45 {
   position:absolute;
-  left:440px;
-  top:390px;
+  left:0px;
+  top:290px;
   width:370px;
   height:90px;
   overflow:hidden;
@@ -786,8 +786,8 @@
 }
 #u54 {
   position:absolute;
-  left:440px;
-  top:661px;
+  left:0px;
+  top:561px;
   width:370px;
   height:109px;
   font-family:'Helvetica Neue Regular', 'Helvetica Neue';
@@ -812,8 +812,8 @@
 }
 #u56 {
   position:absolute;
-  left:440px;
-  top:191px;
+  left:0px;
+  top:91px;
   width:370px;
   height:127px;
   overflow:hidden;
@@ -866,8 +866,8 @@
 }
 #u59 {
   position:absolute;
-  left:470px;
-  top:258px;
+  left:30px;
+  top:158px;
   width:310px;
   height:100px;
   overflow:hidden;
@@ -937,8 +937,8 @@
 }
 #u64 {
   position:absolute;
-  left:610px;
-  top:293px;
+  left:170px;
+  top:193px;
   touch-action:none;
 }
 #u64_state0 {
@@ -978,8 +978,8 @@
 }
 #u67 {
   position:absolute;
-  left:470px;
-  top:132px;
+  left:30px;
+  top:32px;
   width:271px;
   height:29px;
   font-family:'Helvetica Neue Bold', 'Helvetica Neue';
@@ -1003,8 +1003,8 @@
 }
 #u69 {
   position:absolute;
-  left:440px;
-  top:480px;
+  left:0px;
+  top:380px;
   width:370px;
   height:90px;
   overflow:hidden;
@@ -1195,8 +1195,8 @@
 }
 #u78 {
   position:absolute;
-  left:440px;
-  top:571px;
+  left:0px;
+  top:471px;
   width:370px;
   height:90px;
   overflow:hidden;
@@ -1295,8 +1295,8 @@
 }
 #u83 {
   position:absolute;
-  left:471px;
-  top:157px;
+  left:31px;
+  top:57px;
   width:91px;
   height:29px;
   font-family:'Helvetica Neue Bold', 'Helvetica Neue';
@@ -1320,8 +1320,8 @@
 }
 #u85 {
   position:absolute;
-  left:470px;
-  top:352px;
+  left:30px;
+  top:252px;
   width:117px;
   height:28px;
   font-family:'Helvetica Neue Bold', 'Helvetica Neue';
